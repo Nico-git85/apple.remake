@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+}
+
+nav {
+    margin:0;
+    padding:0;
+    background-color: #333333;
+    text-align: center;
+    border: solid 1px #333333;
+  }
+
+li {
+    display: inline;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  h4{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      font-size: 15px;
+      color: #393e46;
+      
+  }
+  
+  a {
+    color:#e3e3e3;
+    display:inline-table;
+    text-decoration: none;
+  }
+  .fab  {
+      color: #e3e3e3;
+      font-size:20px;
+  }
+  .fas  {
+      color: #e3e3e3;
+      font-size: 15px;
+      font-display: 10px;
+    
+  }
+  .sec{
+      color:#0779e4;
+  }
+  .up{
+      text-align: center;
+      background: #0779e4;
+      padding: 15px;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .section{
+      text-align: center;
+  }
+  .iphone{
+      text-align: center;
+      padding: 2px;
+      font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+      color:black;
+      letter-spacing: .004em;
+      line-height: 1.125;
+      font-size: 50px;
+      margin-bottom: 1px;
+    }
+    .phone{
+        padding-left: 3px;
+        margin: 2px;
+    }
+   .om-nom{
+       width:100%;
+   } 
+   .middle{
+       width:100%;
+   }
+   .same{
+       color:black;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 5px;
+       font-size: 17px;
+       font-weight: 300;
+       line-height: 1.5;
+   }
+   .para{
+       color:#aaaaaa;
+      
+   }
+   .single{
+       font-size: 25px;
+       margin-bottom: 10px;
+       font-weight: 80;
+       margin-top: 1px;
+   }
+   #goto a{
+    color:#0779e4;
+    font-size: 23px;
+   }
+   .mixt{
+       color:#0779e4;
+   }
+   #goto{
+    margin-bottom: 7px;
+   }
+   .section-below{
+    text-align: center;
+    background-color: black;
+}
+.pro-one{
+    text-align: center;
+      padding: 2px;
+      font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+      color:white(247, 217, 217);
+      letter-spacing: .04em;
+      line-height: 1.5;
+      font-size: 50px;
+      margin-bottom: 1px;
+}
+
+.other-one{
+       font-size: 25px;
+       margin-bottom: 10px;
+       font-weight: bold;
+       margin-top: 1px;
+       font-family: 'Roboto', sans-serif;
+}
+.second-para{
+       color:#686d76;
+       letter-spacing: 0.03em;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 5px;
+       font-size: 17px;
+       font-weight: 350;
+       line-height: 1.5;
+}
+.first-block{
+    margin:10px;
+    background-color: black;
+    text-align: center;
+    display:inline-block;
+    width:50%;
+}
+.mine{
+    font-size: 50px;
+}
+.two {
+  color:white;
+  text-align: center;
+  padding: 2px;
+  font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  letter-spacing: .04em;
+  line-height: 1.5;
+  font-size: 49px;
+  margin:1px;
+  font-weight: lighter;
+}
+.bis{
+       color:white;
+       letter-spacing: 0.03em;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 5px;
+       font-size: 18px;
+       font-weight: 350;
+       line-height: 1.5;
+}
+.second-block{
+    margin:11px;
+    background-color: white;
+    text-align: center;
+    display:inline-block;
+    width:50%;
+}
+.middle-middle{
+    display: flex;
+}
+
+.one{
+  color:black;
+  text-align: center;
+  padding-top: 50px;
+  font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  line-height: 1;
+  font-size: 36px;
+  margin:1px;
+  font-weight: 10px;
+  word-spacing: 3px;
+}
+.bis-bis{
+       color:black;
+       letter-spacing: 0.01em;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 1px;
+       font-size: 25px;
+       font-weight: 350;
+       line-height: 1.5;
+}
+.mixt-mixt{
+    color:#0779e4;
+    font-size: 10px;
+    display:inline;
+    letter-spacing: .04em;
+    text-indent: 40px;
+}
+.other{
+    display:inline;
+   }
+
+   .third-block{
+       display: flex;
+   }
+
+   .left{
+    margin:10px;
+    background-color: black;
+    text-align: center;
+    display:inline-block;
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1;
+    font-size: 20px;
+    margin-left:10px;
+    font-weight: 10px;
+    word-spacing: 3px;
+    text-shadow:gray;
+    
+   }
+
+   .right{
+    margin:10px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    display:inline-block;
+    width:50%;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 10px;
+    word-spacing: 3px;
+   }
+
+   .seco{
+       font-size: 35px;
+   }
+   .headd{
+       font-size: 13px;
+       letter-spacing: 0.2em;
+       line-height: 0.5;
+       color:red;
+       margin-bottom: 1px;
+    }
+
+    .date{
+        color:black;
+        font-size: 45px;
+        font-weight: 300;
+        text-shadow: black;
+        margin-bottom: 1px;
+    }
+    .bac{
+        color:black;
+        word-spacing: 1;
+        font-size: 35px;
+    }
+    .col{
+        color:black;
+    }
+    .parag{
+        font-family:  'Ubuntu', sans-serif;
+        word-spacing: 0.008em;
+        line-height: 0.09;
+    }
+  .go{
+      text-indent: 20px;;
+  }
+    .fa-chevron-right{
+        font-size: 10px;;
+    }
+
+    .four{
+        display:flex;
+    }
+    .last-left{
+        margin:10px;
+        background-color: white;
+        text-align: center;
+        display:inline-block;
+        width: 50%;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 1;
+        font-size: 20px;
+        margin-left:10px;
+        font-weight: 10px;
+        word-spacing: 3px;
+        color:black;
+    }
+
+    .last-right{
+        margin:10px;
+        background-color: white;
+        text-align: center;
+        display:inline-block;
+        width:50%;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 0.1;
+        font-size: 20px;
+        font-weight: 10px;
+        word-spacing: 3px;
+    }
+
+    .under{
+        color:black;
+        font-size: 38px;
+        text-shadow: #A5A5A5;
+        font-weight:600;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 1px;
+        filter: blur(3px);
+        -webkit-filter: blur(1px);
+        padding-top:1px;
+    }
+    .fa-plus{
+        font-size: 29px;
+        color:black;
+    }
+    .upper{
+        color:black;
+        filter: blur(1px);
+        word-spacing: 1px;
+        font-size: 14px;
+    }
+    .fa-play-circle{
+        color:#0779e4;
+    }
+   .imagen{
+       line-height: 0.7;
+   }
+   .down{
+       display:relative;
+       text-align: center;
+       background-color: #f6f6f6;
+       }
+       .over{
+           width: 1000px;
+       }
+
+       hr {
+        width:1000px;
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: linear-gradient(to right, #ccc, #333, #ccc);
+        margin-bottom:0;
+    }
+       .footered{
+           display:relative;
+           text-align: center;
+           background-color: #f6f6f6;
+          
+       }
+    .nonee{
+        width: 950px;
+    }
